@@ -7,6 +7,8 @@ import { BuyComponent } from './admin/pages/buy/buy.component';
 import { RentComponent } from './admin/pages/rent/rent.component';
 import { SellComponent } from './admin/pages/sell/sell.component';
 import { SigninComponent } from './admin/pages/signin/signin.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RegisterComponent } from './admin/register/register.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,13 @@ import { SigninComponent } from './admin/pages/signin/signin.component';
     BuyComponent,
     RentComponent,
     SellComponent,
-    SigninComponent
+    SigninComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
