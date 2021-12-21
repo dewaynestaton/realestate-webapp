@@ -8,16 +8,17 @@ import { RentComponent } from './admin/pages/rent/rent.component';
 import { SellComponent } from './admin/pages/sell/sell.component';
 import { SigninComponent } from './admin/pages/signin/signin.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { RegisterComponent } from './admin/register/register.component';
+import { RegisterComponent } from './admin/pages/register/register.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    BuyComponent,
-    RentComponent,
-    SellComponent,
-    SigninComponent,
-    RegisterComponent
+    // AppComponent,
+    // BuyComponent,
+    // RentComponent,
+    // SellComponent,
+    // SigninComponent,
+    // RegisterComponent,
+    // NavbarComponent
   ],
   imports: [
     BrowserModule,
