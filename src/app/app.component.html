@@ -1,13 +1,16 @@
 <!-- Toolbar -->
+<div fxLayout="row"></div>
 <mat-toolbar color="primary" class="app-header">
-  <div><a href="#"></a></div>
-  <span class="nav-tool-items">
+  <div><a href="#" fxFlex="33">Real Estate</a></div>
+  <span class="nav-tool-items" fxFlex="67" fxLayoutAlign="end end">
+    <a mat-button routerLink="buy" routerLinkActive="active">Buy</a>
+    <a mat-button routerLink="sell" routerLinkActive="active">Sell</a>
+    <a mat-button routerLink="rent" routerLinkActive="active">Rent</a>
     <a mat-button routerLink="signin" routerLinkActive="active">Log in</a>
     <a mat-button mat-raised-button routerLink="register" routerLinkActive="active">Register</a>
   </span>
 </mat-toolbar>
 
 <router-outlet></router-outlet>
-
 
 
