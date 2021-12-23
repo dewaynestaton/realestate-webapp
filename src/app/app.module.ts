@@ -17,6 +17,7 @@ import { NotFoundComponent } from './admin/pages/not-found/not-found.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AngularMaterialModule } from './angular-material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { HomesComponent } from './admin/pages/homes/homes.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     NavbarComponent,
     ForgotPasswordComponent,
     NotFoundComponent,
+    HomesComponent,
   ],
   imports: [
     BrowserModule,
