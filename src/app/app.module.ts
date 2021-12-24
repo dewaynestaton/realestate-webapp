@@ -15,9 +15,8 @@ import { ForgotPasswordComponent } from './admin/pages/forgot-password/forgot-pa
 import { NotFoundComponent } from './admin/pages/not-found/not-found.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { AngularMaterialModule } from './angular-material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { HomesComponent } from './admin/pages/homes/homes.component';
+import { HomeComponent } from './admin/pages/home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
@@ -31,20 +30,18 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NavbarComponent,
     ForgotPasswordComponent,
     NotFoundComponent,
-    HomesComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     FontAwesomeModule,
-    AngularMaterialModule,
     FlexLayoutModule,
     FormsModule, 
     ReactiveFormsModule, NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
-  //schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule { }
