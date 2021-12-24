@@ -18,6 +18,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AngularMaterialModule } from './angular-material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HomesComponent } from './admin/pages/homes/homes.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,7 @@ import { HomesComponent } from './admin/pages/homes/homes.component';
     AngularMaterialModule,
     FlexLayoutModule,
     FormsModule, 
-    ReactiveFormsModule,
+    ReactiveFormsModule, NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

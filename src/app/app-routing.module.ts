@@ -7,8 +7,10 @@ import { SigninComponent } from './admin/pages/signin/signin.component';
 import { RegisterComponent } from './admin/pages/register/register.component';
 import { ForgotPasswordComponent } from './admin/pages/forgot-password/forgot-password.component';
 import { NotFoundComponent } from './admin/pages/not-found/not-found.component';
+import { AppComponent } from './app.component';
 
 const routes: Routes = [
+  { path: '', component: AppComponent },
   { path: 'buy', component: BuyComponent },
   { path: 'rent', component: RentComponent },
   { path: 'sell', component: SellComponent },
