@@ -1,0 +1,12 @@
+.header {
+    background-image: url(../../../../assets/img/zac-gudakov-FH3zlDsY4Z4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+
+    .form-control:focus {
+        border-color: inherit;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}

@@ -6,10 +6,11 @@ import { SellComponent } from './admin/pages/sell/sell.component';
 import { SigninComponent } from './admin/pages/signin/signin.component';
 import { RegisterComponent } from './admin/pages/register/register.component';
 import { ForgotPasswordComponent } from './admin/pages/forgot-password/forgot-password.component';
-import { AppComponent } from './app.component';
+import { HomeComponent } from './admin/pages/home/home.component';
+//import { AppComponent } from './app.component';
 
 const routes: Routes = [
-  { path: 'home', component: AppComponent },
+  { path: '', component: HomeComponent },
   { path: 'buy', component: BuyComponent },
   { path: 'rent', component: RentComponent },
   { path: 'sell', component: SellComponent },

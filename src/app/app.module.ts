@@ -18,6 +18,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HomeComponent } from './admin/pages/home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { JumbotronComponent } from './admin/components/jumbotron/jumbotron.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ForgotPasswordComponent,
     NotFoundComponent,
     HomeComponent,
+    JumbotronComponent,
   ],
   imports: [
     BrowserModule,
