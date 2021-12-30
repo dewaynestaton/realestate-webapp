@@ -19,6 +19,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { HomeComponent } from './admin/pages/home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { JumbotronComponent } from './admin/components/jumbotron/jumbotron.component';
+import { CtaCardsComponent } from './admin/components/cta-cards/cta-cards.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { JumbotronComponent } from './admin/components/jumbotron/jumbotron.compo
     NotFoundComponent,
     HomeComponent,
     JumbotronComponent,
+    CtaCardsComponent,
   ],
   imports: [
     BrowserModule,
