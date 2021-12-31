@@ -16,7 +16,7 @@ import { NotFoundComponent } from './admin/pages/not-found/not-found.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { HomeComponent } from './admin/pages/home/home.component';
+import { HomesComponent } from './admin/pages/homes/homes.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { JumbotronComponent } from './admin/components/jumbotron/jumbotron.component';
 import { CtaCardsComponent } from './admin/components/cta-cards/cta-cards.component';
@@ -32,7 +32,7 @@ import { CtaCardsComponent } from './admin/components/cta-cards/cta-cards.compon
     NavbarComponent,
     ForgotPasswordComponent,
     NotFoundComponent,
-    HomeComponent,
+    HomesComponent,
     JumbotronComponent,
     CtaCardsComponent,
   ],
