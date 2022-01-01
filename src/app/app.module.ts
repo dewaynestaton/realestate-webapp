@@ -20,6 +20,7 @@ import { HomesComponent } from './admin/pages/homes/homes.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { JumbotronComponent } from './admin/components/jumbotron/jumbotron.component';
 import { CtaCardsComponent } from './admin/components/cta-cards/cta-cards.component';
+import { HomesPreviewComponent } from './admin/components/homes-preview/homes-preview.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { CtaCardsComponent } from './admin/components/cta-cards/cta-cards.compon
     HomesComponent,
     JumbotronComponent,
     CtaCardsComponent,
+    HomesPreviewComponent,
   ],
   imports: [
     BrowserModule,
